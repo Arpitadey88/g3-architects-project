@@ -288,7 +288,7 @@
 .get-consultation-section {
     margin: 4rem 0;
     height: 70vh;
-    background-image: url(./assets/consultation.jpg);
+    background-image: url(/assets/consultation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
