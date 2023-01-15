@@ -61,14 +61,80 @@
 
     /* info details style */
     .details-content {
+        position: relative;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
         padding: 15px;
     }
 
+    .info-cards {
+        width: 100%;
+    }
+
     .details-img img {
         height: 400px;
         width: 100%;
+    }
+
+    .experience {
+        position: absolute;
+        bottom: -20px;
+        right: 90px;
+        height: 110px;
+        width: 220px;
+    }
+
+    /* fact wrapper style */
+    .fact-content,
+    .sponsor-wrapper {
+        padding: 40px 20px;
+    }
+
+    .card-box-wrap,
+    .sponsor-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .card-box {
+        width: 98%;
+        text-align: center;
+        border: 1px solid #FF900E;
+    }
+
+    /* sponsor wrapper style */
+    .sponsor-img img {
+        width: 70px;
+
+    }
+
+    /* feedback area */
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        box-shadow: 5px 5px 5px gainsboro;
+    }
+
+    .content-area {
+        width: 90%;
+    }
+
+    /* get consultation area */
+    .get-consultation-section {
+        height: 60vh;
+    }
+
+    .get-consultation-inner {
+
+        height: 60vh;
+    }
+
+    /* footer style */
+    .footer-area {
+        padding: 20px 30px;
+        margin: 20px 0;
     }
 
 }
